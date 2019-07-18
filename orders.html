@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>IzyFood</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar starts here -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-style">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="asset/img/liveizy-logo.png"
+                    style="width: 80px; height:30px;"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle
+                    navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link  nav-text">Orders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-text">Cart</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                            <a class="nav-link">|</a>
+                        </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span
+                                class="badge badge-col">4</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar ends here -->
+
+    <div class="container">
+        <div class="row order-top-style">
+            <h4>
+                Total Ordered Items:
+                <span>4</span>
+            </h4>
+        </div>
+        <div class="row">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead class="th_style">
+                        <tr>
+                            <th></th>
+                            <th>Product Name</th>
+                            <th>Reference Id</th>
+                            <th>Kg</th>
+                            <th>Unit Price</th>
+                            <th>Total Price</th>
+                            <th>Date</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="asset/img/garri.jpg" alt=""></td>
+                            <td class="td_style">Garri</td>
+                            <td class="td_style">wr34ne</td>
+                            <td class="td_style">50</td>
+                            <td class="td_style">N1,000</td>
+                            <td class="td_style">32,000</td>
+                            <td class="td_style">12-03-2019</td>
+                            <td class="td_style"><span class="badge badge-success">Delivered</span></td>
+                        </tr>
+                        <tr>
+                            <td><img src="asset/img/plantain.jpg" alt=""></td>
+                            <td class="td_style">Plantain</td>
+                            <td class="td_style">iu763ui</td>
+                            <td class="td_style">30</td>
+                            <td class="td_style">N900</td>
+                            <td class="td_style">N1,800</td>
+                            <td class="td_style">12-04-2019</td>
+                            <td class="td_style"><span class="badge badge-warning text-white">Processing</span></td>
+                        </tr>
+                        <tr>
+                            <td><img src="asset/img/yam.png" alt=""></td>
+                            <td class="td_style">Water Yam</td>
+                            <td class="td_style">pou876</td>
+                            <td class="td_style">20</td>
+                            <td class="td_style">N2,900</td>
+                            <td class="td_style">N4,200</td>
+                            <td class="td_style">14-04-2019</td>
+                            <td class="td_style"><span class="badge badge-success">Delivered</span></td>
+                        </tr>
+                        <tr>
+                            <td><img src="asset/img/tomato.jpg" alt=""></td>
+                            <td class="td_style">Tomato</td>
+                            <td class="td_style">yuj237</td>
+                            <td class="td_style">10</td>
+                            <td class="td_style">N2,000</td>
+                            <td class="td_style">N4,000</td>
+                            <td class="td_style">14-04-2019</td>
+                            <td class="td_style"><span class="badge badge-success">Delivered</span></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pagination starts here -->
+    <div class="row pagination-style">
+        <div class="col-lg-6 offset-lg-3  d-flex">
+            <ul class="pagination mx-auto">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">«</span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">»</span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Pagination ends here -->
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
